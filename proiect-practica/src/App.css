@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    color: white;
+    background-color: black;
+}
+
+ion-icon {
+    font-size: 30px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    border: 1px solid black;
+    font-size: 24px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: darkgray;
+}
+
+.tic-tac-toe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tic-tac-toe .row {
+    display: flex;
+}
