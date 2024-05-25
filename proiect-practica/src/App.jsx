@@ -24,8 +24,8 @@ function App()
                 </section>
 
                 <section className='contact-about-buttons'>
-                    <button onClick={() => scrollToSection('contact')}>Contact</button>
                     <button onClick={() => scrollToSection('about')}>About</button>
+                    <button onClick={() => scrollToSection('contact')}>Contact</button>
                 </section>
             </header>
 

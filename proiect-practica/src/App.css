@@ -31,6 +31,15 @@ ion-icon {
     display: flex;
     align-items: center;
     gap: 20px;
+    text-shadow: 
+    3px 0px 0px black,
+    0px 3px 0px black,
+    -3px 0px 0px black,
+    0px -3px 0px black,
+    -3px -3px 0px black,
+    3px 1px 0px black,
+    -3px 3px 0px black,
+    3px -3px 0px black;
 }
 
 .contact-about-buttons {
@@ -77,8 +86,19 @@ ion-icon {
 
 .choose-game h1,
 .tic-tac-toe h1,
-.guess-color h1 {
+.guess-color h1,
+.about h1,
+.contact h1 {
     color: #3FFF00;
+    text-shadow: 
+        5px 0px 0px black,
+        0px 5px 0px black,
+        -5px 0px 0px black,
+        0px -5px 0px black,
+        -5px -5px 0px black,
+        5px 5px 0px black,
+        -5px 5px 0px black,
+        5px -5px 0px black;
 }
 
 .choose-game {
@@ -175,7 +195,6 @@ ion-icon {
 
 .about h1,
 .contact h1 {
-    color: #3FFF00;
     margin: 0px;
     margin-bottom: 20px;
 }
@@ -199,11 +218,19 @@ ion-icon {
 }
 
 .contact li a:hover {
-    text-decoration: underline;
+    text-shadow: 
+    3px 0px 0px black,
+    0px 3px 0px black,
+    -3px 0px 0px black,
+    0px -3px 0px black,
+    -3px -3px 0px black,
+    3px 3px 0px black,
+    -3px 3px 0px black,
+    3px -3px 0px black;
 }
 
 footer {
-    background-color: black;
+    background-color: #282828;
     color: #03C03C;
     margin-top: auto;
     width: 100%;

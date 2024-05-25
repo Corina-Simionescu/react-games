@@ -68,7 +68,7 @@ const GuessColor = () =>
 
     return (
         <>
-            <h1 className='title'>Guess the color</h1>
+            <h1 className='title'>GUESS THE COLOR</h1>
             <div className='color-board' style={{ backgroundColor: boardColor }}></div>
             <div className='colors-buttons'>
                 {threeRandomColor.map((color, index) => (
