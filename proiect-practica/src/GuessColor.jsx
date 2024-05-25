@@ -21,7 +21,6 @@ const GuessColor = () =>
     const [isCorrect, setIsCorrect] = useState("");
     const [newGame, setNewGame] = useState(false);
 
-
     const shuffleArray = array =>
     {
         for (let i = array.length - 1; i > 0; i--)
@@ -34,7 +33,7 @@ const GuessColor = () =>
 
     useEffect(() =>
     {
-        const newGame = () =>
+        const startNewGame = () =>
         {
             const shuffledColors = shuffleArray(colors);
             const selectedThreeRandomColors = shuffledColors.slice(0, 3);
@@ -47,7 +46,7 @@ const GuessColor = () =>
         setTimeout(() =>
         {
             setIsCorrect("");
-            newGame();
+            startNewGame();
         }, 500)
 
     }, [newGame]);

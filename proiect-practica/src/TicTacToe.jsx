@@ -47,7 +47,8 @@ const TicTacToe = () =>
     {
       const [square1, square2, square3] = winningLines[i];
 
-      if (squaresValues[square1] != null && squaresValues[square1] === squaresValues[square2] && squaresValues[square1] === squaresValues[square3])
+      if (squaresValues[square1] != null && squaresValues[square1] === squaresValues[square2] && 
+        squaresValues[square1] === squaresValues[square3])
       {
         return squaresValues[square1];
       }

@@ -69,11 +69,10 @@ ion-icon {
 .about,
 .contact {
     width: 600px;
-    margin: 20px;
+    margin: 20px 0px 20px 0px;
     padding: 70px 300px 70px 300px;
     background-color: #282828;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .choose-game,
