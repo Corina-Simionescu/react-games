@@ -1,3 +1,5 @@
+# React Games
+
 Welcome to the **React Games**! This project is a collection of two games: **Tic Tac Toe** and **Guess the Color**. It showcases my skills in web development and React programming.
 
 ## [Demo](https://corina-simionescu.github.io/react-games/)
